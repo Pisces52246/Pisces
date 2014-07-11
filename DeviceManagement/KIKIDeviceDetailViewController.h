@@ -1,5 +1,5 @@
 //
-//  KIKIFirstViewController.h
+//  KIKIDeviceDetailViewController.h
 //  DeviceManagement
 //
 //  Created by sse-10 on 14-7-10.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface KIKIFirstViewController : UIViewController
+@interface KIKIDeviceDetailViewController : UIViewController
 
 @end

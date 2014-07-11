@@ -1,5 +1,5 @@
 //
-//  KIKISecondViewController.h
+//  KIKIDeviceTableViewController.h
 //  DeviceManagement
 //
 //  Created by sse-10 on 14-7-10.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface KIKISecondViewController : UIViewController
+@interface KIKIDeviceTableViewController : UITableViewController
 
 @end

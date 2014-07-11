@@ -15,14 +15,15 @@
 		4A017589196E791300F82E28 /* KIKIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A017588196E791300F82E28 /* KIKIAppDelegate.m */; };
 		4A01758C196E791300F82E28 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A01758A196E791300F82E28 /* Main_iPhone.storyboard */; };
 		4A01758F196E791300F82E28 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A01758D196E791300F82E28 /* Main_iPad.storyboard */; };
-		4A017592196E791300F82E28 /* KIKIFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A017591196E791300F82E28 /* KIKIFirstViewController.m */; };
-		4A017595196E791300F82E28 /* KIKISecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A017594196E791300F82E28 /* KIKISecondViewController.m */; };
 		4A017597196E791300F82E28 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A017596196E791300F82E28 /* Images.xcassets */; };
 		4A01759E196E791300F82E28 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A01759D196E791300F82E28 /* XCTest.framework */; };
 		4A01759F196E791300F82E28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A017578196E791300F82E28 /* Foundation.framework */; };
 		4A0175A0196E791300F82E28 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A01757C196E791300F82E28 /* UIKit.framework */; };
 		4A0175A8196E791300F82E28 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A0175A6196E791300F82E28 /* InfoPlist.strings */; };
 		4A0175AA196E791300F82E28 /* DeviceManagementTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0175A9196E791300F82E28 /* DeviceManagementTests.m */; };
+		4A0175B7196E868200F82E28 /* KIKIDeviceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0175B6196E868200F82E28 /* KIKIDeviceTableViewController.m */; };
+		4A0175BA196E869B00F82E28 /* KIKIRecordTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0175B9196E869B00F82E28 /* KIKIRecordTableViewController.m */; };
+		4A0175BD196E871200F82E28 /* KIKIDeviceDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0175BC196E871200F82E28 /* KIKIDeviceDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,16 +49,18 @@
 		4A017588196E791300F82E28 /* KIKIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KIKIAppDelegate.m; sourceTree = "<group>"; };
 		4A01758B196E791300F82E28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		4A01758E196E791300F82E28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		4A017590196E791300F82E28 /* KIKIFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KIKIFirstViewController.h; sourceTree = "<group>"; };
-		4A017591196E791300F82E28 /* KIKIFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KIKIFirstViewController.m; sourceTree = "<group>"; };
-		4A017593196E791300F82E28 /* KIKISecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KIKISecondViewController.h; sourceTree = "<group>"; };
-		4A017594196E791300F82E28 /* KIKISecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KIKISecondViewController.m; sourceTree = "<group>"; };
 		4A017596196E791300F82E28 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4A01759C196E791300F82E28 /* DeviceManagementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeviceManagementTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A01759D196E791300F82E28 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4A0175A5196E791300F82E28 /* DeviceManagementTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DeviceManagementTests-Info.plist"; sourceTree = "<group>"; };
 		4A0175A7196E791300F82E28 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4A0175A9196E791300F82E28 /* DeviceManagementTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceManagementTests.m; sourceTree = "<group>"; };
+		4A0175B5196E868200F82E28 /* KIKIDeviceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIKIDeviceTableViewController.h; sourceTree = "<group>"; };
+		4A0175B6196E868200F82E28 /* KIKIDeviceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIKIDeviceTableViewController.m; sourceTree = "<group>"; };
+		4A0175B8196E869B00F82E28 /* KIKIRecordTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIKIRecordTableViewController.h; sourceTree = "<group>"; };
+		4A0175B9196E869B00F82E28 /* KIKIRecordTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIKIRecordTableViewController.m; sourceTree = "<group>"; };
+		4A0175BB196E871200F82E28 /* KIKIDeviceDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIKIDeviceDetailViewController.h; sourceTree = "<group>"; };
+		4A0175BC196E871200F82E28 /* KIKIDeviceDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIKIDeviceDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,14 +120,12 @@
 		4A01757E196E791300F82E28 /* DeviceManagement */ = {
 			isa = PBXGroup;
 			children = (
+				4A0175B4196E862F00F82E28 /* ViewController */,
+				4A0175B3196E861600F82E28 /* View */,
 				4A017587196E791300F82E28 /* KIKIAppDelegate.h */,
 				4A017588196E791300F82E28 /* KIKIAppDelegate.m */,
 				4A01758A196E791300F82E28 /* Main_iPhone.storyboard */,
 				4A01758D196E791300F82E28 /* Main_iPad.storyboard */,
-				4A017590196E791300F82E28 /* KIKIFirstViewController.h */,
-				4A017591196E791300F82E28 /* KIKIFirstViewController.m */,
-				4A017593196E791300F82E28 /* KIKISecondViewController.h */,
-				4A017594196E791300F82E28 /* KIKISecondViewController.m */,
 				4A017596196E791300F82E28 /* Images.xcassets */,
 				4A01757F196E791300F82E28 /* Supporting Files */,
 			);
@@ -158,6 +159,26 @@
 				4A0175A6196E791300F82E28 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A0175B3196E861600F82E28 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4A0175B4196E862F00F82E28 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4A0175B5196E868200F82E28 /* KIKIDeviceTableViewController.h */,
+				4A0175B6196E868200F82E28 /* KIKIDeviceTableViewController.m */,
+				4A0175B8196E869B00F82E28 /* KIKIRecordTableViewController.h */,
+				4A0175B9196E869B00F82E28 /* KIKIRecordTableViewController.m */,
+				4A0175BB196E871200F82E28 /* KIKIDeviceDetailViewController.h */,
+				4A0175BC196E871200F82E28 /* KIKIDeviceDetailViewController.m */,
+			);
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +280,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A017595196E791300F82E28 /* KIKISecondViewController.m in Sources */,
+				4A0175BA196E869B00F82E28 /* KIKIRecordTableViewController.m in Sources */,
+				4A0175BD196E871200F82E28 /* KIKIDeviceDetailViewController.m in Sources */,
 				4A017589196E791300F82E28 /* KIKIAppDelegate.m in Sources */,
-				4A017592196E791300F82E28 /* KIKIFirstViewController.m in Sources */,
+				4A0175B7196E868200F82E28 /* KIKIDeviceTableViewController.m in Sources */,
 				4A017585196E791300F82E28 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
